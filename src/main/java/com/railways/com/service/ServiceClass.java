@@ -18,4 +18,9 @@ public void addData(DataModel user) {
 	user.setAnimal_count(69);
 	con.insert(user);
 }
+	public DataModel showdata(DataModel user1) {
+	user1.setId(110);
+	var info=con.findById(user1.getId()).orElse(user1);
+	return info;
+}
 }
