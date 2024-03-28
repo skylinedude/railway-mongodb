@@ -18,4 +18,8 @@ public String showData(DataModel data) {
 	cont.addData(data);
 	return "data added";
 }
+	@GetMapping("railway/show-forest")
+public DataModel showingData(DataModel data1) {
+	return cont.showdata(data1);
+}
 }
