@@ -12,7 +12,7 @@ public class ServiceClass {
 @Autowired
 private DaoLayer con;
 public void addData(DataModel user) {
-	user.setId(10);
+	user.setId(420);
 	user.setForest_name("Kabini forest");
 	user.setLocation("H.D.Kote");
 	user.setAnimal_count(69);
